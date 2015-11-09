@@ -1,0 +1,173 @@
+{
+  "count": 8,
+  "items": [
+    {
+      "id": 9,
+      "from_id": -105224771,
+      "owner_id": -105224771,
+      "date": 1446104646,
+      "post_type": "post",
+      "text": "Напоминаю, что пара сегодня в 16.00",
+      "signer_id": 30139033,
+      "can_delete": 1,
+      "can_pin": 1,
+      "post_source": {
+        "type": "vk"
+      },
+      "comments": {
+        "count": 0,
+        "can_post": 1
+      },
+      "likes": {
+        "count": 0,
+        "user_likes": 0,
+        "can_like": 1,
+        "can_publish": 1
+      },
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      }
+    },
+    {
+      "id": 7,
+      "from_id": -105224771,
+      "owner_id": -105224771,
+      "date": 1445872770,
+      "post_type": "post",
+      "text": "Контрольные работы жду на гите до 23:59 26.10.2015.",
+      "signer_id": 30139033,
+      "can_delete": 1,
+      "can_pin": 1,
+      "post_source": {
+        "type": "vk"
+      },
+      "comments": {
+        "count": 0,
+        "can_post": 1
+      },
+      "likes": {
+        "count": 0,
+        "user_likes": 0,
+        "can_like": 1,
+        "can_publish": 1
+      },
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      }
+    },
+    {
+      "id": 5,
+      "from_id": -105224771,
+      "owner_id": -105224771,
+      "date": 1445853515,
+      "post_type": "post",
+      "text": "Ура. Свободные выборы показали, что пара будет в 15.20. Кабинет 1412",
+      "signer_id": 30139033,
+      "can_delete": 1,
+      "can_pin": 1,
+      "post_source": {
+        "type": "vk"
+      },
+      "comments": {
+        "count": 0,
+        "can_post": 1
+      },
+      "likes": {
+        "count": 0,
+        "user_likes": 0,
+        "can_like": 1,
+        "can_publish": 1
+      },
+      "reposts": {
+        "count": 1,
+        "user_reposted": 0
+      }
+    },
+    {
+      "id": 3,
+      "from_id": -105224771,
+      "owner_id": -105224771,
+      "date": 1445802210,
+      "post_type": "post",
+      "text": "Были просьбы перенести пару в понедельник повыше. Всё по старой схеме: выбираем время, если другая пара пересекается с одним из вариантов - пишем об этом в комментариях.",
+      "signer_id": 30139033,
+      "can_delete": 1,
+      "can_pin": 1,
+      "post_source": {
+        "type": "vk"
+      },
+      "comments": {
+        "count": 0,
+        "can_post": 1
+      },
+      "likes": {
+        "count": 0,
+        "user_likes": 0,
+        "can_like": 1,
+        "can_publish": 1
+      },
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      }
+    },
+    {
+      "id": 2,
+      "from_id": -105224771,
+      "owner_id": -105224771,
+      "date": 1445551471,
+      "post_type": "post",
+      "text": "#homework Домашняя работа по 1-3 занятиям(калькулятор + прикреплённый документ) принимается до 12:00 26.10.2015. Сдаётся позже - идёт уменьшение баллов.",
+      "signer_id": 30139033,
+      "can_delete": 1,
+      "can_pin": 1,
+      "post_source": {
+        "type": "vk"
+      },
+      "comments": {
+        "count": 0,
+        "can_post": 1
+      },
+      "likes": {
+        "count": 0,
+        "user_likes": 0,
+        "can_like": 1,
+        "can_publish": 1
+      },
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      }
+    },
+    {
+      "id": 1,
+      "from_id": -105224771,
+      "owner_id": -105224771,
+      "date": 1445550996,
+      "post_type": "post",
+      "text": "Как уже говорилось, домашние работы надо будет присылать на bitbucket, поэтому прикладываю небольшую инструкцию)",
+      "signer_id": 30139033,
+      "can_delete": 1,
+      "can_pin": 1,
+      "post_source": {
+        "type": "vk"
+      },
+      "comments": {
+        "count": 0,
+        "can_post": 1
+      },
+      "likes": {
+        "count": 0,
+        "user_likes": 0,
+        "can_like": 1,
+        "can_publish": 1
+      },
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      }
+    }
+  ]
+}
