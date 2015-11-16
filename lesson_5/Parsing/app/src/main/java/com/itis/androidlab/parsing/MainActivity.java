@@ -8,8 +8,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -25,7 +23,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Timer;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -47,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
     public class ParseJson extends AsyncTask<Void, Void, List<VkPost>> {
         ProgressDialog mProgressDialog;
+
         @Override
         protected void onPreExecute() {
             mProgressDialog = new ProgressDialog(MainActivity.this);
