@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FragmentsAffiche</string>
+
+    <string name="film.director">Режисёр: %s</string>
+
+</resources>
