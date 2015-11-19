@@ -20,15 +20,14 @@ public class MainActivity extends AppCompatActivity implements FilmChooserFragme
     @Override
     public void onFilmChosen(Film film) {
         FragmentManager fragmentManager = getSupportFragmentManager();
-
         FragmentTransaction ft = fragmentManager.beginTransaction();
-
         FilmDetailsFragment filmDetailsFragment = new FilmDetailsFragment();
         Bundle bundle = new Bundle();
         bundle.putParcelable(FilmDetailsFragment.FILM, film);
         filmDetailsFragment.setArguments(bundle);
+
         if (fragmentManager.findFragmentById(R.id.film_details) != null) {
-            ft.replace(R.id.film_details, filmDetailsFragment, "fragment2");
+            ft.replace(R.id.film_details, filmDetailsFragment, FilmDetailsFragment.class.getSimpleName());
             ft.commit();
         } else {
             ft.add(R.id.film_details, filmDetailsFragment, FilmDetailsFragment.class.getSimpleName());
