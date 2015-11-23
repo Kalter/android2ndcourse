@@ -4,18 +4,29 @@
               android:layout_height="wrap_content"
               android:orientation="vertical">
 
-    <Button
-        android:id="@+id/film1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        />
+
+        <Button
+            android:id="@+id/film1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/film2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+
 
     <Button
-        android:id="@+id/film2"
+        android:id="@+id/cinemas"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_gravity="center"
+        android:layout_weight="2"
+        android:text="@string/cinemas"
         />
 
 

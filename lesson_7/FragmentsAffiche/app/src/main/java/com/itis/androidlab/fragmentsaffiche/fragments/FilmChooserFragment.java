@@ -38,6 +38,9 @@ public class FilmChooserFragment extends Fragment implements View.OnClickListene
         film2.setText(mFilms.get(1).getTitle());
         film2.setOnClickListener(this);
 
+        Button cinemas = (Button) view.findViewById(R.id.cinemas);
+        cinemas.setOnClickListener(this);
+
     }
 
     private List<Film> readFilmsFromJson() {
@@ -65,10 +68,14 @@ public class FilmChooserFragment extends Fragment implements View.OnClickListene
                 break;
         }
         FilmChooserProcessor listener = (FilmChooserProcessor) getActivity();
-        listener.onFilmChosen(film);
+        if (film != null)
+            listener.onFilmChosen(film);
+        else
+            listener.showCinemas();
     }
 
     public interface FilmChooserProcessor {
         void onFilmChosen(Film film);
+        void showCinemas();
     }
 }

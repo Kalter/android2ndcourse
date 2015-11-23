@@ -43,6 +43,22 @@
             android:textStyle="bold"
             android:layout_marginTop="8dp"
             tools:text="Кубрик"/>
+        <TextView
+            android:id="@+id/actor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            />
+        <TextView
+            android:id="@+id/budget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            />
 
 
     </LinearLayout>

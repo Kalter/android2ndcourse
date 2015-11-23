@@ -12,6 +12,9 @@ public class Film {
     private String description;
     @JsonProperty("premier_date")
     private String date;
+    private int id;
+    private String actors;
+    private int budget;
 
     public Film() {
     }
@@ -46,6 +49,30 @@ public class Film {
 
     public void setDate(String date) {
         this.date = date;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getActors() {
+        return actors;
+    }
+
+    public void setActors(String actors) {
+        this.actors = actors;
+    }
+
+    public int getBudget() {
+        return budget;
+    }
+
+    public void setBudget(int budget) {
+        this.budget = budget;
     }
 
     @JsonIgnoreProperties(ignoreUnknown = true)
