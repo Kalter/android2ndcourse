@@ -17,6 +17,8 @@ public class FilmDetailsFragment extends Fragment {
     private TextView mDateTextView;
     private TextView mDescriptionTextView;
     private TextView mDirectorTextView;
+    private TextView mActorTextView;
+    private TextView mBudgetTextView;
 
     @Nullable
     @Override
@@ -32,6 +34,8 @@ public class FilmDetailsFragment extends Fragment {
         mDateTextView = (TextView) view.findViewById(R.id.film_date);
         mDescriptionTextView = (TextView) view.findViewById(R.id.film_description);
         mDirectorTextView = (TextView) view.findViewById(R.id.film_director);
+        mActorTextView = (TextView) view.findViewById(R.id.actor);
+        mBudgetTextView = (TextView) view.findViewById(R.id.budget);
     }
 
     public void setFilm(Film film) {
@@ -39,5 +43,7 @@ public class FilmDetailsFragment extends Fragment {
         mDateTextView.setText(film.getDate());
         mDescriptionTextView.setText(film.getDescription());
         mDirectorTextView.setText(String.format(getResources().getString(R.string.film_director), film.getDirector()));
+        mActorTextView.setText(String.format(getResources().getString(R.string.actor), film.getActors()));
+        mBudgetTextView.setText(String.format(getResources().getString(R.string.budget), String.valueOf(film.getBudget())));
     }
 }
