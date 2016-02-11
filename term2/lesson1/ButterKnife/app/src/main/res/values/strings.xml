@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ButterKnife</string>
+
+    <string name="start.button.title.findbyid">Find by id</string>
+    <string name="start.button.title.butterknife">Butter Knife</string>
+    <string name="start.toast.todo">TO DO</string>
+
+    <string name="findbyid.button.title.next">Дальше</string>
+    <string name="findbyid.display.text.message1">Это активити сделано при помощи стандартных android средств</string>
+    <string name="findbyid.display.text.message2">Пора сделать его используя ButterKnife!</string>
+
+</resources>
