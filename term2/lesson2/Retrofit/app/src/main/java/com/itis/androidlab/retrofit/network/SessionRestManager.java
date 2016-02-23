@@ -25,17 +25,26 @@ public class SessionRestManager {
     }
 
     /**
-     * Injects basic auth header to an every request
+     * Настраиваем поля, которые будут добавляться к каждому запросу
      */
     private final RequestInterceptor REQUEST_INTERCEPTOR = new RequestInterceptor() {
         @Override
         public void intercept(RequestFacade request) {
+            // К каждому запросу в параметры будет добавляться ApplicationId,
+            // чтобы сервер мог определять какое приложение выполняет запрос
             request.addQueryParam("appid", Config.APPLICATION_ID);
-
             request.addHeader("Accept", "application/json");
         }
     };
 
+    /**
+     * Определяем RestAdapter,
+     *
+     *  - endpoint - базовый URL для запросов
+     *  - converter - конвертер, при помощи которого будут парсится JSON
+     *  - RequestInterceptor - класс который перехватывает каждый запрос
+     *  и добавляет к нему поля(определили выше)
+     */
     private final RestAdapter.Builder REST_ADAPTER_BUILDER = new RestAdapter.Builder()
             .setEndpoint(AndroidUtils.getRestEndpoint())
             .setConverter(new JacksonConverter())

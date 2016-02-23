@@ -1,7 +1,6 @@
 package com.itis.androidlab.retrofit.network;
 
 import com.itis.androidlab.retrofit.models.FullWeatherInfo;
-import com.itis.androidlab.retrofit.models.Temperature;
 
 import retrofit.http.GET;
 import retrofit.http.Query;
